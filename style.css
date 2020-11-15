@@ -1,0 +1,29 @@
+body {
+    background-image: url(./Assets/Images/double-bubble-dark.png); 
+    background-position: top left;
+    /* background-size: 100% 2000px; */
+    /* background-repeat: no-repeat; */
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: content-box;
+    background-color: whitesmoke;
+    
+}
+nav {
+    color: antiquewhite;
+}
+.contactForm {
+    margin-right: 100px;
+}
+.container {
+    border-radius: 20px;
+    background-color: snow;
+    /* position: relative; */
+}
+.header {
+    font-size: xx-large;
+}
+.carousel {
+    width:640px;
+    height:360px;
+  }
