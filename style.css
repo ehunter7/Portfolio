@@ -1,29 +1,49 @@
-body {
-    background-image: url(./Assets/Images/double-bubble-dark.png); 
-    background-position: top left;
-    /* background-size: 100% 2000px; */
-    /* background-repeat: no-repeat; */
-    background-attachment: scroll;
-    background-origin: padding-box;
-    background-clip: content-box;
-    background-color: whitesmoke;
-    
+.hero-image {
+  background-image: url(./Assets/Images/Bike-Trail.jpg);
+  height: 600px;
+  width: 100%;
+  background-size: cover;
 }
-nav {
-    color: antiquewhite;
+
+.navbar {
+  background-color: black;
+  opacity: 70%;
+  width: 90%;
+  margin: auto;
+  border-radius: 0 0 5px 5px;
 }
+
+.intro {
+  font-size: 3em;
+  color: seashell;
+  width: 50%;
+  height: 100%;
+  margin: auto;
+  /* padding: 5%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.intro p {
+  font-size: 0.5em;
+}
+
+header .contact {
+  font-size: 0.5em;
+  color: seashell;
+  background: none;
+  border: 2px solid seashell;
+  border-radius: 5px;
+}
+
 .contactForm {
-    margin-right: 100px;
+  margin-right: 100px;
 }
 .container {
-    border-radius: 20px;
-    background-color: snow;
-    /* position: relative; */
+  border-radius: 20px;
 }
-.header {
-    font-size: xx-large;
-}
+
 .carousel {
-    width:640px;
-    height:360px;
-  }
+  width: 640px;
+  height: 360px;
+}
