@@ -5,14 +5,6 @@
   background-size: cover;
 }
 
-.navbar {
-  background-color: black;
-  opacity: 70%;
-  width: 90%;
-  margin: auto;
-  border-radius: 0 0 5px 5px;
-}
-
 .intro {
   font-size: 3em;
   color: seashell;
@@ -36,6 +28,26 @@ header .contact {
   border-radius: 5px;
 }
 
+h2 {
+  text-align: center;
+  margin-top: 1em;
+}
+
+.box h3 {
+  text-align: center;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin: auto;
+  width: 75%;
+  border-bottom: 2px solid black;
+}
+
+.box p {
+  width: 80%;
+  margin: auto;
+  padding-top: 0.5em;
+}
+
 .box-container {
   display: flex;
   flex-wrap: wrap;
@@ -45,16 +57,37 @@ header .contact {
 .box {
   flex: 1 1 150px;
   margin: 5px;
-  background-color: sienna;
+
   width: 200px;
   height: 200px;
 }
 
-.contactForm {
-  margin-right: 100px;
+#carouselExampleCaptions {
+  width: 100%;
+  height: auto;
 }
-.container {
-  border-radius: 20px;
+
+.aside-img {
+  background-color: lightcoral;
+}
+
+.contact-form {
+  background-color: lightgreen;
+  display: flex;
+  justify-content: center;
+}
+.carousel-item {
+  height: 30em;
+}
+
+.contact-area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact-area .box {
+  flex: 1 1 200px;
 }
 
 .carousel {
