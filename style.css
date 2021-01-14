@@ -1,3 +1,7 @@
+body {
+  background-color: #2f4858;
+}
+
 .hero-image {
   background-image: url(./Assets/Images/Bike-Trail.jpg);
   height: 600px;
@@ -31,6 +35,7 @@ header .contact {
 h2 {
   text-align: center;
   margin-top: 1em;
+  color: #f26419;
 }
 
 .box h3 {
@@ -39,7 +44,7 @@ h2 {
   padding-bottom: 0.5em;
   margin: auto;
   width: 75%;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #f6ae2d;
 }
 
 .box p {
@@ -52,6 +57,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  color: white;
 }
 
 .box {
@@ -63,34 +69,95 @@ h2 {
 }
 
 #carouselExampleCaptions {
-  width: 100%;
+  width: 80%;
+  margin: auto;
   height: auto;
 }
 
 .aside-img {
-  background-color: lightcoral;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .contact-form {
-  background-color: lightgreen;
   display: flex;
   justify-content: center;
+  color: white;
 }
+
+input {
+  background-color: transparent;
+  border: 2px solid #f6ae2d;
+  border-radius: 5px;
+  width: 75%;
+}
+#contact {
+  width: 100%;
+}
+
+textarea {
+  background-color: transparent;
+  border: 2px solid #f6ae2d;
+  border-radius: 5px;
+  resize: none;
+}
+
+.input {
+  color: white;
+  background-color: transparent;
+  border: 2px solid #f6ae2d;
+  border-radius: 5px;
+}
+
 .carousel-item {
-  height: 30em;
+  height: auto;
 }
 
 .contact-area {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 1em;
+  padding: 1em;
+  height: auto;
 }
 
 .contact-area .box {
   flex: 1 1 200px;
+  height: auto;
 }
 
 .carousel {
   width: 640px;
   height: 360px;
+}
+
+.fa-linkedin {
+  /* background: #3b5998; */
+  background: #fff;
+  color: #000;
+  font-size: 2em;
+}
+
+.fa-github {
+  /* background: #3b5998; */
+  background: #fff;
+  color: #000;
+  font-size: 2em;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 65px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.social-icon {
+  display: flex;
+  justify-content: center;
+  padding: 2em;
 }
