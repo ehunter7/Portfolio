@@ -1,0 +1,24 @@
+{
+  "name": "Homework-2",
+  "version": "1.0.0",
+  "description": "<!--Decscription of homework2-->\r * Created three html files to store each page\r     * links in each page link the three",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ehunter7/Homework-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ehunter7/Homework-2/issues"
+  },
+  "homepage": "https://github.com/ehunter7/Homework-2#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
