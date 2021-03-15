@@ -26,6 +26,11 @@ body {
   margin-top: 1em;
 }
 
+a {
+  text-decoration: none;
+  color: seashell;
+}
+
 .headingInfo {
   padding-left: 3em;
 }
@@ -40,6 +45,21 @@ header .contact {
   background: none;
   border: 2px solid seashell;
   border-radius: 5px;
+}
+
+.resumeBtn {
+  font-size: 0.5em;
+  color: seashell;
+  background: none;
+  border: 2px solid seashell;
+  border-radius: 5px;
+}
+
+.resumeDiv {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .links {
