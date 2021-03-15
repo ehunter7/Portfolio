@@ -22,7 +22,14 @@ body {
 }
 .idLinks {
   margin-left: 1.25em;
+  margin-bottom: 1em;
+  margin-top: 1em;
 }
+
+.headingInfo {
+  padding-left: 3em;
+}
+
 .intro p {
   font-size: 0.5em;
 }
@@ -33,6 +40,13 @@ header .contact {
   background: none;
   border: 2px solid seashell;
   border-radius: 5px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 h2 {
@@ -141,7 +155,7 @@ textarea {
 
 .contact-area {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: center;
   margin-bottom: 1em;
   padding: 1em;
@@ -152,6 +166,7 @@ textarea {
   display: flex;
   justify-content: center;
 }
+
 .contact-area .box {
   flex: 0 1 300px;
   height: auto;
@@ -164,15 +179,15 @@ textarea {
 
 .fa-linkedin {
   /* background: #3b5998; */
-  background: #fff;
-  color: #000;
+  /* background: #fff; */
+  color: #fff;
   font-size: 2em;
 }
 
 .fa-github {
   /* background: #3b5998; */
-  background: #fff;
-  color: #000;
+  /* background: #fff; */
+  color: #fff;
   font-size: 2em;
 }
 
@@ -186,7 +201,13 @@ textarea {
 }
 
 .social-icon {
+  /* display: flex; */
+  padding: .5em;
+  align-items: center;
+}
+
+/* .social-icon {
   display: flex;
   justify-content: center;
   padding: 2em;
-}
+} */

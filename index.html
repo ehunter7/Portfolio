@@ -27,19 +27,43 @@
     <section class="hero-image">
       <header class="intro">
         <div>
-          <h1>Hello there, I'm Eric Hunter<br />Web Developer</h1>
-          <p>
-            I create dynamic and easy to use online experiences. Userfiendly is
+          <h1 class ="headingInfo">Hello there, I'm Eric Hunter<br />Web Developer</h1>
+          <p class ="headingInfo">
+            I create dynamic and easy to use online experiences. Userfriendly is
             the keyword throughout the whole process.
           </p>
-          <div class="idLinks">
-            <a href="#about"><button class="contact">About Me!</button></a>
-          </div>
-          <div class="idLinks">
-            <a href="#work"><button class="contact">My Work!</button></a>
-          </div>
-          <div class="idLinks">
-            <a href="#contact"><button class="contact">Contact me!</button></a>
+          <div class="row">
+            <section class="col-6 links">
+              <div class="idLinks">
+                <a href="#about"><button class="contact">About Me</button></a>
+              </div>
+              <div class="idLinks">
+                <a href="#work"><button class="contact">My Work</button></a>
+              </div>
+              <div class="idLinks">
+                <a href="./Assets/docs/Resume.pdf"
+                  ><button class="contact">My Resume</button></a
+                >
+              </div>
+            </section>
+            <section class="col-6 links">
+              <!-- this is the beginning of the icons -->
+
+
+              <div class="social-icon">
+                <a
+                  class="fa fa-linkedin fa-2x"
+                  href="https://www.linkedin.com/in/eric-hunter-b7a637183?trk=profile-badge"
+                ></a>
+              </div>
+              <div class="social-icon">
+                <a class="fa fa-github fa-2x" href="https://github.com/ehunter7"></a>
+              </div>
+            </div>
+
+
+              <!-- end of icon section -->
+            </section>
           </div>
         </div>
       </header>
@@ -50,27 +74,26 @@
         <div class="box">
           <h3>Achievement</h3>
           <p>
-            I have obtained a programming certification from Mt. San Jacinto
+            Obtained a programming certification from Mt. San Jacinto
             College and a certificate in full-stack web development from
-            University of California, Riverside. I am also pursuing a Bachelor’s
+            University of California, Riverside. Pursuing a Bachelor’s
             degree in Computer Science.
           </p>
         </div>
         <div class="box">
           <h3>Skills</h3>
           <p>
-            I am skilled at Javascript, HTML, CSS, Node.js, C++, and web
-            responsiveness. I am passionate about approaching coding challenges
+            Skilled at Javascript, HTML, CSS, Node.js, C++, and web
+            responsiveness. Passionate about approaching coding challenges
             from different angles and collaborating with others to develop
             interactive and meaningful web applications.
           </p>
         </div>
         <div class="box">
-          <h3>Experiance</h3>
+          <h3>Experience</h3>
           <p>
-            I have successfully implemented new software and procedures at my
-            current organization and serve as a manager to multiple teams. I am
-            excited to create interactive, mobile-first, web responsive
+            Successfully implemented new software and procedures at my
+            current organization and serve as a manager to multiple teams. Excited to create interactive, mobile-first, web responsive
             applications through the use of dynamic technologies.
           </p>
         </div>
@@ -168,8 +191,8 @@
     <!-- Beginning of Contact form -->
     <h2>Contact</h2>
     <section class="contact-area">
-      <div class="contact-form box">
-        <form action="" id="contact">
+      <!-- <div class="contact-form box"> -->
+        <!-- <form action="" id="contact">
           <div class="formControl">
             <div>
               <label for="name">Name</label>
@@ -205,18 +228,24 @@
             <button class="input">submit</button>
           </div>
         </form>
-      </div>
-      <div class="aside-img box">
+      </div> -->
+      <div class="contact-area">
         <div class="social-icon">
           <a
             class="fa fa-linkedin fa-2x"
             href="https://www.linkedin.com/in/eric-hunter-b7a637183?trk=profile-badge"
           ></a>
-        </div>
-        <div class="social-icon">
+        <!-- </div>
+        <div class="social-icon"> -->
           <a class="fa fa-github fa-2x" href="https://github.com/ehunter7"></a>
         </div>
+        <div class="idLinks">
+          <a href="./Assets/docs/Resume.pdf"
+            ><button class="contact">My Resume</button></a
+          >
+        </div>
       </div>
+
     </section>
 
     <!-- End of Contact form -->
