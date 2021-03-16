@@ -1,4 +1,4 @@
-# Homework-2
+# Portfolio
 
 <!--Decscription of homework2-->
 * Created three html files to store each page
