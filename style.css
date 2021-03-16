@@ -24,11 +24,20 @@ body {
   margin-left: 1.25em;
   margin-bottom: 1em;
   margin-top: 1em;
+} 
+
+
+
+h5 a {
+  text-decoration: none;
+  color: #f26419;
+  font-size: 2em;
 }
 
 a {
   text-decoration: none;
-  color: seashell;
+  color: #f26419;
+  font-size: 1.5em;
 }
 
 .headingInfo {
