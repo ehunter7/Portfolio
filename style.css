@@ -4,7 +4,7 @@ body {
 
 .hero-image {
   background-image: url(./Assets/kilyan-sockalingum-8NH2_f5TxAA-unsplash.jpg);
-  height: 50em;
+  height: 55em;
   width: 100%;
   background-size: cover;
 }
@@ -19,7 +19,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
+
+.introText {
+  margin-top: 1.5em;
+}
+
 .idLinks {
   margin-left: 1.25em;
   margin-bottom: 1em;
